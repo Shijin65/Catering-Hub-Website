@@ -1,0 +1,56 @@
+/* Custom CSS to make the site full-screen and responsive */
+
+/* Reset body from Vite defaults */
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+  /* Remove flex/place-items from Vite default */
+  min-width: auto;
+  min-height: auto;
+}
+
+/* Reduce container padding and increase max-width for "full screen" look */
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 98% !important;
+  /* padding-left: 1rem !important; */
+  /* padding-right: 1rem !important; */
+}
+
+/* Make container-fluid truly full width */
+/* .container-fluid {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+} */
+
+/* Adjust for larger screens to maintain a high-end look while still being wide */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 96% !important;
+  }
+}
+
+/* Mobile specific fixes to ensure responsiveness */
+/* @media (max-width: 768px) {
+  .container {
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Ensure images don't overflow */
+/* img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Adjust hero section for mobile if needed */
+/* #hero h2 {
+    font-size: 28px;
+  } */
+/* }  */
