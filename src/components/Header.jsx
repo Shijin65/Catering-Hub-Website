@@ -4,8 +4,8 @@ export default function Header() {
             <div className="topbar d-flex align-items-center">
                 <div className="container d-flex justify-content-center justify-content-md-end">
                     <div className="contact-info d-flex align-items-center">
-                        <i className="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-                        <i className="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+                        <i className="bi bi-envelope d-flex align-items-center"><a href="mailto:Bestevercatering@gmail.com">Bestevercatering@gmail.com</a></i>
+                        <i className="bi bi-phone d-flex align-items-center ms-4"><span>+91 7510761910</span></i>
                     </div>
                 </div>
             </div>
@@ -44,8 +44,9 @@ export default function Header() {
                         <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
                     </nav>
 
-                    {/* <a className="btn-book-a-table d-none d-xl-block" href="#book-a-table">Book a Table</a> */}
-                    <a href="https://wa.me/917510761910" className="btn-book-a-table d-none d-xl-block" target="_blank" rel="noopener noreferrer">Book an Event</a>
+                    <a href="https://wa.me/917510761910" className="btn-book-a-table d-none d-xl-block" target="_blank" rel="noopener noreferrer">
+                        <i className="bi bi-whatsapp me-2"></i> Book an Event
+                    </a>
                 </div>
             </div>
         </header>

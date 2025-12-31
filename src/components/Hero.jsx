@@ -9,7 +9,9 @@ export default function Hero() {
                         <p data-aos="fade-up" data-aos-delay="200">Smiles, Satisfaction & Sweet Memories</p>
                         <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
                             <a href="#specials" className="cta-btn">Our Specials</a>
-                            <a href="https://wa.me/917510761910" className="cta-btn" target="_blank" rel="noopener noreferrer">Book an Event</a>
+                            <a href="https://wa.me/917510761910" className="cta-btn" target="_blank" rel="noopener noreferrer">
+                                <i className="bi bi-whatsapp me-2"></i> Book an Event
+                            </a>
                         </div>
                     </div>
                     <div className="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">

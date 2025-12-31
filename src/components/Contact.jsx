@@ -17,7 +17,7 @@ export default function Contact() {
                             <i className="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h3>Location</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Palakkad, Kerala</p>
                             </div>
                         </div>
 
@@ -25,7 +25,7 @@ export default function Contact() {
                             <i className="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Open Hours</h3>
-                                <p>Monday-Saturday:<br />11:00 AM - 2300 PM</p>
+                                <p>Monday-Saturday:<br />11:00 AM - 23:00 PM</p>
                             </div>
                         </div>
 
@@ -33,7 +33,7 @@ export default function Contact() {
                             <i className="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>+91 7510761910</p>
                             </div>
                         </div>
 
@@ -41,7 +41,7 @@ export default function Contact() {
                             <i className="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <p>Bestevercatering@gmail.com</p>
                             </div>
                         </div>
                     </div>

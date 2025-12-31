@@ -19,7 +19,7 @@ export default function Home() {
             {/* <Menu /> */}
             <Specials />
             <Events />
-            <BookATable />
+            {/* <BookATable /> */}
             <Testimonials />
             <Gallery />
             <Chefs />
