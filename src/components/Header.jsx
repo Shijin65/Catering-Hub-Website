@@ -13,7 +13,8 @@ export default function Header() {
             <div className="branding d-flex align-items-center">
                 <div className="container position-relative d-flex align-items-center justify-content-between">
                     <a href="index.html" className="logo d-flex align-items-center me-auto me-xl-0">
-                        <h1 className="sitename">Best Ever Catering & Manpower</h1>
+                        <img src="/assets/img/logo-be.jpg" alt="Best Ever Catering Logo" className="me-2" style={{ maxHeight: '40px', borderRadius: '5px' }} />
+                        <h1 className="sitename">Best Ever Catering</h1>
                     </a>
 
                     <nav id="navmenu" className="navmenu">

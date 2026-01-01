@@ -4,7 +4,7 @@ export default function About() {
             <div className="container" data-aos="fade-up" data-aos-delay="100">
                 <div className="row gy-4">
                     <div className="col-lg-6 order-1 order-lg-2">
-                        <img src="assets/img/about.jpg" className="img-fluid about-img" alt="" />
+                        <img src="/assets/img/gallery/team-group-1.jpg" className="img-fluid about-img" alt="Best Ever Catering Team" />
                     </div>
                     <div className="col-lg-6 order-2 order-lg-1 content">
                         <h3>Leading the Industry in Catering and Event Staffing</h3>

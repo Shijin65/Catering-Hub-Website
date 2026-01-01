@@ -10,17 +10,11 @@ export default function Chefs() {
                 <div className="row gy-4">
                     <div className="col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div className="member">
-                            <img src="assets/img/chefs/chefs-1.jpg" className="img-fluid" alt="" />
+                            <img src="/assets/img/gallery/team-group-2.jpg" className="img-fluid" alt="Best Ever Catering Staff" />
                             <div className="member-info">
                                 <div className="member-info-content">
-                                    <h4>Rajesh Kumar</h4>
-                                    <span>Master Chef</span>
-                                </div>
-                                <div className="social">
-                                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                                    <a href=""><i className="bi bi-facebook"></i></a>
-                                    <a href=""><i className="bi bi-instagram"></i></a>
-                                    <a href=""><i className="bi bi-linkedin"></i></a>
+                                    <h4>Our Professional Crew</h4>
+                                    <span>Skilled Staff</span>
                                 </div>
                             </div>
                         </div>
@@ -28,17 +22,11 @@ export default function Chefs() {
 
                     <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div className="member">
-                            <img src="assets/img/chefs/chefs-2.jpg" className="img-fluid" alt="" />
+                            <img src="/assets/img/gallery/team-group-3.jpg" className="img-fluid" alt="Best Ever Catering Staff" />
                             <div className="member-info">
                                 <div className="member-info-content">
-                                    <h4>Anjana Menon</h4>
-                                    <span>Event Supervisor</span>
-                                </div>
-                                <div className="social">
-                                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                                    <a href=""><i className="bi bi-facebook"></i></a>
-                                    <a href=""><i className="bi bi-instagram"></i></a>
-                                    <a href=""><i className="bi bi-linkedin"></i></a>
+                                    <h4>Event Supervisors</h4>
+                                    <span>Leadership Team</span>
                                 </div>
                             </div>
                         </div>
@@ -46,17 +34,11 @@ export default function Chefs() {
 
                     <div className="col-lg-4" data-aos="fade-up" data-aos-delay="300">
                         <div className="member">
-                            <img src="assets/img/chefs/chefs-3.jpg" className="img-fluid" alt="" />
+                            <img src="/assets/img/gallery/team-group-4.jpg" className="img-fluid" alt="Best Ever Catering Staff" />
                             <div className="member-info">
                                 <div className="member-info-content">
-                                    <h4>Mohammed Ali</h4>
-                                    <span>Hospitality Manager</span>
-                                </div>
-                                <div className="social">
-                                    <a href=""><i className="bi bi-twitter-x"></i></a>
-                                    <a href=""><i className="bi bi-facebook"></i></a>
-                                    <a href=""><i className="bi bi-instagram"></i></a>
-                                    <a href=""><i className="bi bi-linkedin"></i></a>
+                                    <h4>Hospitality Team</h4>
+                                    <span>Guest Services</span>
                                 </div>
                             </div>
                         </div>

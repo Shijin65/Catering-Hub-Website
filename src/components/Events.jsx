@@ -1,7 +1,7 @@
 export default function Events() {
     return (
         <section id="events" className="events section">
-            <img className="slider-bg" src="assets/img/events-bg.jpg" alt="" data-aos="fade-in" />
+            <img className="slider-bg" src="/assets/img/hero-bg.jpg" alt="Best Ever Catering Events" data-aos="fade-in" />
             <div className="container">
                 <div className="swiper init-swiper" data-aos="fade-up" data-aos-delay="100">
                     <script type="application/json" className="swiper-config" dangerouslySetInnerHTML={{
@@ -24,7 +24,7 @@ export default function Events() {
                         <div className="swiper-slide">
                             <div className="row gy-4 event-item">
                                 <div className="col-lg-6">
-                                    <img src="assets/img/events-slider/events-slider-1.jpg" className="img-fluid" alt="" />
+                                    <img src="/assets/img/grand-weddings.jpg" className="img-fluid" alt="Grand Weddings" style={{ height: '500px', objectFit: 'cover', width: '100%' }} />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
                                     <h3>Grand Weddings</h3>
@@ -48,7 +48,7 @@ export default function Events() {
                         <div className="swiper-slide">
                             <div className="row gy-4 event-item">
                                 <div className="col-lg-6">
-                                    <img src="assets/img/events-slider/events-slider-2.jpg" className="img-fluid" alt="" />
+                                    <img src="/assets/img/corporate-events.jpg" className="img-fluid" alt="Corporate Events" style={{ height: '500px', objectFit: 'cover', width: '100%' }} />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
                                     <h3>Corporate Events</h3>
@@ -72,7 +72,7 @@ export default function Events() {
                         <div className="swiper-slide">
                             <div className="row gy-4 event-item">
                                 <div className="col-lg-6">
-                                    <img src="assets/img/events-slider/events-slider-3.jpg" className="img-fluid" alt="" />
+                                    <img src="/assets/img/social-gatherings.jpg" className="img-fluid" alt="Social Gatherings" style={{ height: '500px', objectFit: 'cover', width: '100%' }} />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
                                     <h3>Social Gatherings</h3>
