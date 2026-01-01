@@ -27,22 +27,20 @@ export default function Events() {
                                     <img src="assets/img/events-slider/events-slider-1.jpg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Birthday Parties</h3>
+                                    <h3>Grand Weddings</h3>
                                     <div className="price">
-                                        <p><span>$189</span></p>
+                                        <p><span>Premium Pricing</span></p>
                                     </div>
                                     <p className="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua.
+                                        We provide end-to-end manpower and catering solutions to make your big day unforgettable.
                                     </p>
                                     <ul>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Uniformed waiting staff for a premium guest experience.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Traditional Kerala and multi-cuisine catering menus.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Dedicated event supervisors to manage all staff on-site.</span></li>
                                     </ul>
                                     <p>
-                                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur
+                                        Our wedding services focus on discipline and elegance. We ensure that your guests are served with the highest standards of hospitality, while our kitchen team delivers food that everyone will remember.
                                     </p>
                                 </div>
                             </div>
@@ -53,22 +51,20 @@ export default function Events() {
                                     <img src="assets/img/events-slider/events-slider-2.jpg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Private Parties</h3>
+                                    <h3>Corporate Events</h3>
                                     <div className="price">
-                                        <p><span>$290</span></p>
+                                        <p><span>Flexible Packages</span></p>
                                     </div>
                                     <p className="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua.
+                                        Professional staffing and catering for business meetings and corporate galas.
                                     </p>
                                     <ul>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Punctual and professional staff for formal service.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Tailored lunch and dinner buffets for corporate groups.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Efficient setup and quick cleanup to respect your schedule.</span></li>
                                     </ul>
                                     <p>
-                                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur
+                                        We understand the importance of timing and professionalism in corporate settings. Our team is trained to provide discreet yet attentive service, ensuring your business event proceeds smoothly.
                                     </p>
                                 </div>
                             </div>
@@ -79,22 +75,20 @@ export default function Events() {
                                     <img src="assets/img/events-slider/events-slider-3.jpg" className="img-fluid" alt="" />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
-                                    <h3>Custom Parties</h3>
+                                    <h3>Social Gatherings</h3>
                                     <div className="price">
-                                        <p><span>$99</span></p>
+                                        <p><span>Affordable Solutions</span></p>
                                     </div>
                                     <p className="fst-italic">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                        magna aliqua.
+                                        From birthday parties to family reunions, we bring the best support to your home.
                                     </p>
                                     <ul>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Flexible manpower options (waiters/helpers) for any crowd size.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Customizable menus to suit your family's preferences.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Friendly and helpful staff to make your guests feel at home.</span></li>
                                     </ul>
                                     <p>
-                                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                        velit esse cillum dolore eu fugiat nulla pariatur
+                                        Small events deserve big attention. We provide the same level of care and professional manpower for family gatherings as we do for large weddings, making sure you can focus on your guests.
                                     </p>
                                 </div>
                             </div>

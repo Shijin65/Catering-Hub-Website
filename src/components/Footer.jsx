@@ -5,7 +5,7 @@ export default function Footer() {
                 <div className="row flex justify-content-between">
                     <div className="col-lg-4 col-md-6 footer-about">
                         <a href="index.html" className="logo d-flex align-items-center">
-                            <span className="sitename">Best Ever Catering</span>
+                            <span className="sitename">Best Ever Catering & Manpower</span>
                         </a>
                         <div className="footer-contact pt-3">
                             <p>Palakkad, Kerala</p>
@@ -26,8 +26,8 @@ export default function Footer() {
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Services</a></li>
-                            <li><a href="#">Terms of service</a></li>
-                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
 
@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
 
             <div className="container copyright text-center mt-4">
-                <p>© <span>Copyright</span> <strong className="px-1 sitename">Best Ever Catering</strong> <span>All Rights Reserved</span></p>
+                <p>© <span>Copyright</span> <strong className="px-1 sitename">Best Ever Catering & Manpower</strong> <span>All Rights Reserved</span></p>
                 <div className="credits">
                     {/* Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a> */}
                 </div>

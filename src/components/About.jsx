@@ -7,19 +7,17 @@ export default function About() {
                         <img src="assets/img/about.jpg" className="img-fluid about-img" alt="" />
                     </div>
                     <div className="col-lg-6 order-2 order-lg-1 content">
-                        <h3>Voluptatem dignissimos provident</h3>
+                        <h3>Leading the Industry in Catering and Event Staffing</h3>
                         <p className="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.
+                            Best Ever Catering & Manpower Services provides a comprehensive solution for your events. From delicious, high-quality food to professionally trained manpower, we make every event successful and stress-free.
                         </p>
                         <ul>
-                            <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                            <li><i className="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                            <li><i className="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+                            <li><i className="bi bi-check2-all"></i> <span>Premium catering services for weddings, corporate events, and parties.</span></li>
+                            <li><i className="bi bi-check2-all"></i> <span>Professional manpower staffing including waiters, event staff, and kitchen helpers.</span></li>
+                            <li><i className="bi bi-check2-all"></i> <span>Highly experienced team dedicated to delivering excellence and satisfied smiles.</span></li>
                         </ul>
                         <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                            Based in Palakkad, Kerala, we pride ourselves on our attention to detail and our ability to provide well-disciplined staff that ensures your guests receive the best hospitality. Whether it's a small family gathering or a large-scale wedding, we have the resources to handle it all.
                         </p>
                     </div>
                 </div>

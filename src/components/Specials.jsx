@@ -2,8 +2,8 @@ export default function Specials() {
     return (
         <section id="specials" className="specials section">
             <div className="container section-title" data-aos="fade-up">
-                <h2>Specials</h2>
-                <p>Check Our Specials</p>
+                <h2>Our Services</h2>
+                <p>Complete Event Management Solutions</p>
             </div>
 
             <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -11,19 +11,19 @@ export default function Specials() {
                     <div className="col-lg-3">
                         <ul className="nav nav-tabs flex-column">
                             <li className="nav-item">
-                                <a className="nav-link active show" data-bs-toggle="tab" href="#specials-tab-1">Modi sit est</a>
+                                <a className="nav-link active show" data-bs-toggle="tab" href="#specials-tab-1">Catering Services</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-2">Unde praesentium sed</a>
+                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-2">Waiting Staff</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-3">Pariatur explicabo vel</a>
+                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-3">Kitchen Manpower</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-4">Nostrum qui quasi</a>
+                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-4">Cleaning Services</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-5">Iusto ut expedita aut</a>
+                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-5">Event Supervision</a>
                             </li>
                         </ul>
                     </div>
@@ -32,9 +32,9 @@ export default function Specials() {
                             <div className="tab-pane active show" id="specials-tab-1">
                                 <div className="row">
                                     <div className="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Architecto ut aperiam autem id</h3>
-                                        <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                                        <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                                        <h3>Traditional & Premium Catering</h3>
+                                        <p className="fst-italic">We offer a wide range of menu options tailored to your taste and tradition.</p>
+                                        <p>Whether it's a traditional Kerala Sadhya or a modern buffet, our catering service focuses on hygiene, taste, and presentation. We use only the finest ingredients to ensure every bite is a delightful experience for your guests.</p>
                                     </div>
                                     <div className="col-lg-4 text-center order-1 order-lg-2">
                                         <img src="assets/img/specials-1.png" alt="" className="img-fluid" />
@@ -44,9 +44,9 @@ export default function Specials() {
                             <div className="tab-pane" id="specials-tab-2">
                                 <div className="row">
                                     <div className="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Et blanditiis nemo veritatis excepturi</h3>
-                                        <p className="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                                        <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                                        <h3>Professional Waiting Staff</h3>
+                                        <p className="fst-italic">Well-disciplined, uniformed, and professional waiters for your events.</p>
+                                        <p>Hospitality is our strength. Our waiting staff are trained to be polite, efficient, and proactive. They are equipped to handle large crowds smoothly, ensuring that every guest is served with care and professionalism.</p>
                                     </div>
                                     <div className="col-lg-4 text-center order-1 order-lg-2">
                                         <img src="assets/img/specials-2.png" alt="" className="img-fluid" />
@@ -56,9 +56,9 @@ export default function Specials() {
                             <div className="tab-pane" id="specials-tab-3">
                                 <div className="row">
                                     <div className="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                                        <p className="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                                        <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                                        <h3>Skilled Kitchen Manpower</h3>
+                                        <p className="fst-italic">Experienced cooks and helpers to support your kitchen needs.</p>
+                                        <p>We provide skilled kitchen helpers, cleaning staff, and junior cooks who understand the demands of a high-pressure event kitchen. Our team helps maintain cleanliness and efficiency behind the scenes, so your main chefs can focus on the food.</p>
                                     </div>
                                     <div className="col-lg-4 text-center order-1 order-lg-2">
                                         <img src="assets/img/specials-3.png" alt="" className="img-fluid" />
@@ -68,9 +68,9 @@ export default function Specials() {
                             <div className="tab-pane" id="specials-tab-4">
                                 <div className="row">
                                     <div className="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                                        <p className="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                                        <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                                        <h3>Event Cleaning & Maintenance</h3>
+                                        <p className="fst-italic">Pre-event setup and post-event cleanup services.</p>
+                                        <p>We take care of the heavy lifting. From setting up the dining area to thorough post-event cleaning, our dedicated staff ensures that the venue remains spotless and organized throughout the celebration.</p>
                                     </div>
                                     <div className="col-lg-4 text-center order-1 order-lg-2">
                                         <img src="assets/img/specials-4.png" alt="" className="img-fluid" />
@@ -80,9 +80,9 @@ export default function Specials() {
                             <div className="tab-pane" id="specials-tab-5">
                                 <div className="row">
                                     <div className="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                                        <p className="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                                        <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                                        <h3>Professional Event Supervision</h3>
+                                        <p className="fst-italic">Experienced supervisors to manage all manpower on-site.</p>
+                                        <p>Our event supervisors act as your direct point of contact. They coordinate between the kitchen and the dining area, manage the staff, and ensure that everything runs perfectly on schedule, giving you total peace of mind.</p>
                                     </div>
                                     <div className="col-lg-4 text-center order-1 order-lg-2">
                                         <img src="assets/img/specials-5.png" alt="" className="img-fluid" />

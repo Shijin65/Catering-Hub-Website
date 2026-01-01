@@ -2,8 +2,8 @@ export default function Chefs() {
     return (
         <section id="chefs" className="chefs section">
             <div className="container section-title" data-aos="fade-up">
-                <h2>Team</h2>
-                <p>Necessitatibus eius consequatur</p>
+                <h2>Our Team</h2>
+                <p>Expert Professionals Ready to Serve You</p>
             </div>
 
             <div className="container">
@@ -13,7 +13,7 @@ export default function Chefs() {
                             <img src="assets/img/chefs/chefs-1.jpg" className="img-fluid" alt="" />
                             <div className="member-info">
                                 <div className="member-info-content">
-                                    <h4>Walter White</h4>
+                                    <h4>Rajesh Kumar</h4>
                                     <span>Master Chef</span>
                                 </div>
                                 <div className="social">
@@ -31,8 +31,8 @@ export default function Chefs() {
                             <img src="assets/img/chefs/chefs-2.jpg" className="img-fluid" alt="" />
                             <div className="member-info">
                                 <div className="member-info-content">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Patissier</span>
+                                    <h4>Anjana Menon</h4>
+                                    <span>Event Supervisor</span>
                                 </div>
                                 <div className="social">
                                     <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -49,8 +49,8 @@ export default function Chefs() {
                             <img src="assets/img/chefs/chefs-3.jpg" className="img-fluid" alt="" />
                             <div className="member-info">
                                 <div className="member-info-content">
-                                    <h4>William Anderson</h4>
-                                    <span>Cook</span>
+                                    <h4>Mohammed Ali</h4>
+                                    <span>Hospitality Manager</span>
                                 </div>
                                 <div className="social">
                                     <a href=""><i className="bi bi-twitter-x"></i></a>
