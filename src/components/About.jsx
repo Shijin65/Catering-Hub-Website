@@ -1,6 +1,11 @@
 export default function About() {
     return (
         <section id="about" className="about section">
+            <div className="container section-title" data-aos="fade-up">
+                <h2>About Us</h2>
+                <p>Who We Are</p>
+            </div>
+
             <div className="container" data-aos="fade-up" data-aos-delay="100">
                 <div className="row gy-4">
                     <div className="col-lg-6 order-1 order-lg-2">

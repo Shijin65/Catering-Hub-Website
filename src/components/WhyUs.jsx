@@ -19,7 +19,7 @@ export default function WhyUs() {
                         <div className="card-item">
                             <span>02</span>
                             <h4>Delicious Food</h4>
-                            <p>Our experienced chefs prepare a wide variety of traditional and modern cuisines using fresh, high-quality ingredients.</p>
+                            <p>Our experienced team prepare a wide variety of traditional and modern cuisines using fresh, high-quality ingredients.</p>
                         </div>
                     </div>
                     <div className="col-lg-4" data-aos="fade-up" data-aos-delay="300">

@@ -12,29 +12,41 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Playfair Display",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Playfair Display", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #0c0b09; /* Background color for the entire website, including individual sections */
-  --default-color: rgba(255, 255, 255, 0.7); /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #cda45e; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #29261f; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #0c0b09; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root {
+  --background-color: #0c0b09;
+  /* Background color for the entire website, including individual sections */
+  --default-color: rgba(255, 255, 255, 0.7);
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #ffffff;
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #cda45e;
+  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #29261f;
+  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #0c0b09;
+  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #cda45e; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #29261f; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #29261f; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #ffffff; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #cda45e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #ffffff;
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #cda45e;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #29261f;
+  /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #29261f;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #ffffff;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #cda45e;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -1456,19 +1468,19 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Testimonials Section
+# partners Section
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
+.partners .partners-carousel,
+.partners .partners-slider {
   overflow: hidden;
 }
 
-.testimonials .testimonial-item {
+.partners .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+.partners .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   margin: -40px 0 0 40px;
@@ -1477,32 +1489,32 @@ section,
   border: 6px solid var(--background-color);
 }
 
-.testimonials .testimonial-item h3 {
+.partners .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
 }
 
-.testimonials .testimonial-item h4 {
+.partners .testimonial-item h4 {
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 0 0 0 45px;
 }
 
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
+.partners .testimonial-item .quote-icon-left,
+.partners .testimonial-item .quote-icon-right {
   color: color-mix(in srgb, var(--accent-color), transparent 50%);
   font-size: 26px;
   line-height: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left {
+.partners .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testimonials .testimonial-item .quote-icon-right {
+.partners .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
@@ -1510,7 +1522,7 @@ section,
   transform: scale(-1, -1);
 }
 
-.testimonials .testimonial-item p {
+.partners .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
@@ -1521,16 +1533,16 @@ section,
   z-index: 1;
 }
 
-.testimonials .swiper-wrapper {
+.partners .swiper-wrapper {
   height: auto;
 }
 
-.testimonials .swiper-pagination {
+.partners .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.partners .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: var(--background-color);
@@ -1538,7 +1550,7 @@ section,
   border: 1px solid var(--accent-color);
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.partners .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
@@ -1560,20 +1572,20 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Chefs Section
+# team Section
 --------------------------------------------------------------*/
-.chefs {
+.team {
   --default-color: #ffffff;
   --contrast-color: #ffffff;
 }
 
-.chefs .member {
+.team .member {
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-.chefs .member .member-info {
+.team .member .member-info {
   opacity: 0;
   position: absolute;
   bottom: 0;
@@ -1583,7 +1595,7 @@ section,
   transition: 0.2s;
 }
 
-.chefs .member .member-info-content {
+.team .member .member-info-content {
   position: absolute;
   left: 0;
   right: 0;
@@ -1591,20 +1603,20 @@ section,
   transition: bottom 0.4s;
 }
 
-.chefs .member .member-info-content h4 {
+.team .member .member-info-content h4 {
   color: var(--contrast-color);
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
 }
 
-.chefs .member .member-info-content span {
+.team .member .member-info-content span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.chefs .member .social {
+.team .member .social {
   position: absolute;
   left: 0;
   bottom: -38px;
@@ -1614,34 +1626,34 @@ section,
   text-align: center;
 }
 
-.chefs .member .social a {
+.team .member .social a {
   transition: color 0.3s;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 0 10px;
   display: inline-block;
 }
 
-.chefs .member .social a:hover {
+.team .member .social a:hover {
   color: var(--accent-color);
 }
 
-.chefs .member .social i {
+.team .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
 
-.chefs .member:hover .member-info {
+.team .member:hover .member-info {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(255, 255, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
 }
 
-.chefs .member:hover .member-info-content {
+.team .member:hover .member-info-content {
   bottom: 60px;
   transition: bottom 0.4s;
 }
 
-.chefs .member:hover .social {
+.team .member:hover .social {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
 }

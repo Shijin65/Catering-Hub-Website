@@ -2,6 +2,12 @@ export default function Events() {
     return (
         <section id="events" className="events section">
             <img className="slider-bg" src="/assets/img/hero-bg.jpg" alt="Best Ever Catering Events" data-aos="fade-in" />
+
+            <div className="container section-title" data-aos="fade-up" style={{ position: 'relative', zIndex: 2 }}>
+                <h2>Events</h2>
+                <p>Organize Your Events in our Restaurant</p>
+            </div>
+
             <div className="container">
                 <div className="swiper init-swiper" data-aos="fade-up" data-aos-delay="100">
                     <script type="application/json" className="swiper-config" dangerouslySetInnerHTML={{
