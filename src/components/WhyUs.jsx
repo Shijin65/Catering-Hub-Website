@@ -26,7 +26,7 @@ export default function WhyUs() {
                         <div className="card-item">
                             <span>03</span>
                             <h4>End-to-End Solutions</h4>
-                            <p>From kitchen helpers to event supervisors, we manage every aspect of manpower so you can enjoy your event without worries.</p>
+                            <p>From event staff to supervisors, we manage every aspect of manpower so you can enjoy your event without worries.</p>
                         </div>
                     </div>
                 </div>

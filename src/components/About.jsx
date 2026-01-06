@@ -13,7 +13,7 @@ export default function About() {
                         </p>
                         <ul>
                             <li><i className="bi bi-check2-all"></i> <span>Premium catering services for weddings, corporate events, and parties.</span></li>
-                            <li><i className="bi bi-check2-all"></i> <span>Professional manpower staffing including waiters, event staff, and kitchen helpers.</span></li>
+                            <li><i className="bi bi-check2-all"></i> <span>Professional manpower staffing including waiters and event staff.</span></li>
                             <li><i className="bi bi-check2-all"></i> <span>Highly experienced team dedicated to delivering excellence and satisfied smiles.</span></li>
                         </ul>
                         <p>

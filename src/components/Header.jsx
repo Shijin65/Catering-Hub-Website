@@ -6,6 +6,7 @@ export default function Header() {
                     <div className="contact-info d-flex align-items-center">
                         <i className="bi bi-envelope d-flex align-items-center"><a href="mailto:Bestevercatering@gmail.com">Bestevercatering@gmail.com</a></i>
                         <i className="bi bi-phone d-flex align-items-center ms-4"><span>+91 7510761910</span></i>
+                        <i className="bi bi-instagram d-flex align-items-center ms-4"><a href="https://www.instagram.com/bestevercateringservice?igsh=MmR4MWtnZ20xbXc=" target="_blank" rel="noopener noreferrer" style={{ paddingLeft: '5px' }}>Instagram</a></i>
                     </div>
                 </div>
             </div>

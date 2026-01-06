@@ -12,7 +12,7 @@ export default function Contact() {
 
             <div className="container" data-aos="fade-up" data-aos-delay="100">
                 <div className="row gy-4">
-                    <div className="col-lg-4">
+                    <div className="col-lg-3 col-md-6">
                         <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                             <i className="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
@@ -20,15 +20,19 @@ export default function Contact() {
                                 <p>Palakkad, Kerala</p>
                             </div>
                         </div>
+                    </div>
 
+                    <div className="col-lg-3 col-md-6">
                         <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                            <i className="bi bi-telephone flex-shrink-0"></i>
+                            <i className="bi bi-clock flex-shrink-0"></i>
                             <div>
                                 <h3>Open Hours</h3>
                                 <p>Monday-Saturday:<br />11:00 AM - 23:00 PM</p>
                             </div>
                         </div>
+                    </div>
 
+                    <div className="col-lg-3 col-md-6">
                         <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                             <i className="bi bi-telephone flex-shrink-0"></i>
                             <div>
@@ -36,7 +40,9 @@ export default function Contact() {
                                 <p>+91 7510761910</p>
                             </div>
                         </div>
+                    </div>
 
+                    <div className="col-lg-3 col-md-6">
                         <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
                             <i className="bi bi-envelope flex-shrink-0"></i>
                             <div>
@@ -46,7 +52,7 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className="col-lg-8">
+                    {/* <div className="col-lg-8">
                         <form action="#" method="post" className="php-email-form" data-aos="fade-up" data-aos-delay="200">
                             <div className="row gy-4">
                                 <div className="col-md-6">
@@ -69,7 +75,7 @@ export default function Contact() {
                                 </div>
                             </div>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

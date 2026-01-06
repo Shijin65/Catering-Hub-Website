@@ -16,9 +16,7 @@ export default function Specials() {
                             <li className="nav-item">
                                 <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-2">Waiting Staff</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-3">Kitchen Manpower</a>
-                            </li>
+
                             <li className="nav-item">
                                 <a className="nav-link" data-bs-toggle="tab" href="#specials-tab-4">Cleaning Services</a>
                             </li>
@@ -53,18 +51,7 @@ export default function Specials() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="tab-pane" id="specials-tab-3">
-                                <div className="row">
-                                    <div className="col-lg-8 details order-2 order-lg-1">
-                                        <h3>Skilled Kitchen Manpower</h3>
-                                        <p className="fst-italic">Experienced cooks and helpers to support your kitchen needs.</p>
-                                        <p>We provide skilled kitchen helpers, cleaning staff, and junior cooks who understand the demands of a high-pressure event kitchen. Our team helps maintain cleanliness and efficiency behind the scenes, so your main chefs can focus on the food.</p>
-                                    </div>
-                                    <div className="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/specials-3.png" alt="" className="img-fluid" />
-                                    </div>
-                                </div>
-                            </div>
+
                             <div className="tab-pane" id="specials-tab-4">
                                 <div className="row">
                                     <div className="col-lg-8 details order-2 order-lg-1">

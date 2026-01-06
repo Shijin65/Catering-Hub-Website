@@ -13,10 +13,7 @@ export default function Footer() {
                             <p><strong>Email:</strong> <span>Bestevercatering@gmail.com</span></p>
                         </div>
                         <div className="social-links d-flex mt-4">
-                            <a href=""><i className="bi bi-twitter-x"></i></a>
-                            <a href=""><i className="bi bi-facebook"></i></a>
-                            <a href=""><i className="bi bi-instagram"></i></a>
-                            <a href=""><i className="bi bi-linkedin"></i></a>
+                            <a href="https://www.instagram.com/bestevercateringservice?igsh=MmR4MWtnZ20xbXc=" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram"></i></a>
                         </div>
                     </div>
 

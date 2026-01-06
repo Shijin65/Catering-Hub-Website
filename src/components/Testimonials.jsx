@@ -1,20 +1,20 @@
 export default function Testimonials() {
     return (
-        <section id="testimonials" className="testimonials section">
+        <section id="testimonials" className="testimonials section partners-section">
             <div className="container section-title" data-aos="fade-up">
-                <h2>Testimonials</h2>
-                <p>What they're saying about us</p>
+                <h2>Our Partners</h2>
+                <p>Trusted Collaborations & Partnerships</p>
             </div>
 
             <div className="container" data-aos="fade-up" data-aos-delay="100">
-                <div className="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints='{ "320": { "slidesPerView": 1, "spaceBetween": 40 }, "1200": { "slidesPerView": 3, "spaceBetween": 40 } }'>
+                <div className="swiper init-swiper" data-speed="600" data-delay="3000" data-breakpoints='{ "320": { "slidesPerView": 4, "spaceBetween": 10 }, "768": { "slidesPerView": 5, "spaceBetween": 20 }, "1200": { "slidesPerView": 6, "spaceBetween": 30 } }'>
                     <script type="application/json" className="swiper-config" dangerouslySetInnerHTML={{
                         __html: `
             {
               "loop": true,
               "speed": 600,
               "autoplay": {
-                "delay": 5000
+                "delay": 3000
               },
               "slidesPerView": "auto",
               "pagination": {
@@ -22,81 +22,190 @@ export default function Testimonials() {
                 "type": "bullets",
                 "clickable": true
               },
-              "breakpoints": {
+            "breakpoints": {
                 "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
+                  "slidesPerView": 4,
+                  "spaceBetween": 10
+                },
+                "768": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
                 },
                 "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
+                  "slidesPerView": 6,
+                  "spaceBetween": 30
                 }
               }
             }
           ` }}></script>
                     <div className="swiper-wrapper">
                         <div className="swiper-slide">
-                            <div className="testimonial-item">
-                                <p>
-                                    <i className=" bi bi-quote quote-icon-left"></i>
-                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                                    <i className="bi bi-quote quote-icon-right"></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
-                                <h3>Saul Goodman</h3>
-                                <h4>Ceo &amp; Founder</h4>
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/miracle-moments.jpg" className="partner-logo" alt="Miracle Moments" />
+                                </div>
+                                <h3>Miracle Moments</h3>
+                                <p>Catering & Event Management</p>
                             </div>
                         </div>
 
                         <div className="swiper-slide">
-                            <div className="testimonial-item">
-                                <p>
-                                    <i className="bi bi-quote quote-icon-left"></i>
-                                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                                    <i className="bi bi-quote quote-icon-right"></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img" alt="" />
-                                <h3>Sara Wilsson</h3>
-                                <h4>Designer</h4>
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/cheese-board.jpg" className="partner-logo" alt="The Cheese Board" />
+                                </div>
+                                <h3>The Cheese Board</h3>
+                                <p>Caterers Pvt. Ltd.</p>
                             </div>
                         </div>
 
                         <div className="swiper-slide">
-                            <div className="testimonial-item">
-                                <p>
-                                    <i className="bi bi-quote quote-icon-left"></i>
-                                    <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                                    <i className="bi bi-quote quote-icon-right"></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" />
-                                <h3>Jena Karlis</h3>
-                                <h4>Store Owner</h4>
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/sreedhar.jpg" className="partner-logo" alt="Sreedhar Restaurant" />
+                                </div>
+                                <h3>Sreedhar</h3>
+                                <p>Veg. Restaurant</p>
                             </div>
                         </div>
 
                         <div className="swiper-slide">
-                            <div className="testimonial-item">
-                                <p>
-                                    <i className="bi bi-quote quote-icon-left"></i>
-                                    <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                                    <i className="bi bi-quote quote-icon-right"></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" />
-                                <h3>Matt Brandon</h3>
-                                <h4>Freelancer</h4>
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/blue-crore.jpg" className="partner-logo" alt="Blue Crore Caterers" />
+                                </div>
+                                <h3>Blue Crore</h3>
+                                <p>Caterers</p>
                             </div>
                         </div>
 
                         <div className="swiper-slide">
-                            <div className="testimonial-item">
-                                <p>
-                                    <i className="bi bi-quote quote-icon-left"></i>
-                                    <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                                    <i className="bi bi-quote quote-icon-right"></i>
-                                </p>
-                                <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" />
-                                <h3>John Larson</h3>
-                                <h4>Entrepreneur</h4>
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/plaza.jpg" className="partner-logo" alt="Plaza Catering Service" />
+                                </div>
+                                <h3>Plaza</h3>
+                                <p>Catering Service</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/flowers-events.jpg" className="partner-logo" alt="Flowers Events & Caters" />
+                                </div>
+                                <h3>Flowers Events</h3>
+                                <p>Events & Caters</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/rolush.jpg" className="partner-logo" alt="Rolush Caters" />
+                                </div>
+                                <h3>Rolush</h3>
+                                <p>Caters</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/blue-ginger.jpg" className="partner-logo" alt="Blue Ginger Catering Service" />
+                                </div>
+                                <h3>Blue Ginger</h3>
+                                <p>Catering Service</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/vee-kay-vees.jpg" className="partner-logo" alt="Vee Kay Vees Caterers" />
+                                </div>
+                                <h3>Vee Kay Vees</h3>
+                                <p>Caterers</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/noor-jehan.jpg" className="partner-logo" alt="Noor Jehan Group" />
+                                </div>
+                                <h3>Noor Jehan</h3>
+                                <p>Group</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/grand.jpg" className="partner-logo" alt="Grand Catering" />
+                                </div>
+                                <h3>Grand</h3>
+                                <p>Catering</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/moonlock.jpg" className="partner-logo" alt="Moonlock Weddings & Events" />
+                                </div>
+                                <h3>Moonlock</h3>
+                                <p>Weddings & Events</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/flavaro.jpg" className="partner-logo" alt="Flavaro Catering" />
+                                </div>
+                                <h3>Flavaro</h3>
+                                <p>Catering & Event Management</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/surya.jpg" className="partner-logo" alt="Surya Events" />
+                                </div>
+                                <h3>Surya</h3>
+                                <p>Events</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/brothers.jpg" className="partner-logo" alt="Brothers Catering & Events" />
+                                </div>
+                                <h3>Brothers</h3>
+                                <p>Catering & Events</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/alacarte.jpg" className="partner-logo" alt="A-la-carte Caterers" />
+                                </div>
+                                <h3>A-la-carte</h3>
+                                <p>Caterers</p>
+                            </div>
+                        </div>
+
+                        <div className="swiper-slide">
+                            <div className="partner-item">
+                                <div className="partner-logo-wrapper">
+                                    <img src="assets/img/partners/royal.jpg" className="partner-logo" alt="Royal Catering & Events" />
+                                </div>
+                                <h3>Royal</h3>
+                                <p>Catering & Events</p>
                             </div>
                         </div>
                     </div>
