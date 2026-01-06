@@ -6,7 +6,7 @@ import Events from '../components/Events';
 import Gallery from '../components/Gallery';
 import Contact from '../components/Contact';
 import Team from '../components/Team';
-import Partners from '../components/partners';
+import Partners from '../components/Partners';
 
 export default function Home() {
     return (
