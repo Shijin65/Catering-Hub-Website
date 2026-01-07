@@ -1,6 +1,6 @@
 export default function WhyUs() {
     return (
-        <section id="why-us" className="why-us section">
+        <section id="specials" className="specials section">
             <div className="container section-title" data-aos="fade-up">
                 <h2>WHY US</h2>
                 <p>Choose the Best for Your Special Day</p>
@@ -18,8 +18,8 @@ export default function WhyUs() {
                     <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div className="card-item">
                             <span>02</span>
-                            <h4>Delicious Food</h4>
-                            <p>Our experienced team prepare a wide variety of traditional and modern cuisines using fresh, high-quality ingredients.</p>
+                            <h4>Reliable Event Support</h4>
+                            <p>Our experienced team provides comprehensive support services including security, housekeeping, and site supervision.</p>
                         </div>
                     </div>
                     <div className="col-lg-4" data-aos="fade-up" data-aos-delay="300">

@@ -22,7 +22,6 @@ export default function Header() {
                         <ul>
                             <li><a href="#hero" className="active">Home<br /></a></li>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#why-us">Why Us</a></li>
                             <li><a href="#specials">Services</a></li>
                             <li><a href="#events">Events</a></li>
                             <li><a href="#partners">Partners</a></li>

@@ -1,6 +1,5 @@
 import Hero from '../components/Hero';
 import About from '../components/About';
-import WhyUs from '../components/WhyUs';
 import Specials from '../components/Specials';
 import Events from '../components/Events';
 import Gallery from '../components/Gallery';
@@ -13,7 +12,6 @@ export default function Home() {
         <main className="main">
             <Hero />
             <About />
-            <WhyUs />
             <Specials />
             <Events />
             <Partners />

@@ -74,7 +74,7 @@ export default function Partners() {
                                 <div className="partner-logo-wrapper">
                                     <img src="assets/img/partners/blue-crore.jpg" className="partner-logo" alt="Blue Crore Caterers" />
                                 </div>
-                                <h3>Blue Crore</h3>
+                                <h3>Nila</h3>
                                 <p>Caterers</p>
                             </div>
                         </div>
@@ -144,8 +144,8 @@ export default function Partners() {
                                 <div className="partner-logo-wrapper">
                                     <img src="assets/img/partners/grand.jpg" className="partner-logo" alt="Grand Catering" />
                                 </div>
-                                <h3>Grand</h3>
-                                <p>Catering</p>
+                                <h3>German</h3>
+                                <p>Caters</p>
                             </div>
                         </div>
 

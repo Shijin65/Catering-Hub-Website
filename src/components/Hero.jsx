@@ -6,7 +6,7 @@ export default function Hero() {
                 <div className="row">
                     <div className="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
                         <h2 data-aos="fade-up" data-aos-delay="100">Welcome to <span>Best Ever Catering</span></h2>
-                        <p data-aos="fade-up" data-aos-delay="200">Exquisite Catering & Professional Event Manpower Staffing Solutions</p>
+                        <p data-aos="fade-up" data-aos-delay="200">Professional Event Manpower & Staffing Solutions</p>
                         <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
                             <a href="#specials" className="cta-btn">Our Services</a>
                             <a href="https://wa.me/917510761910" className="cta-btn" target="_blank" rel="noopener noreferrer">

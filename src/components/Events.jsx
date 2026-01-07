@@ -38,15 +38,15 @@ export default function Events() {
                                         <p><span>Premium Pricing</span></p>
                                     </div>
                                     <p className="fst-italic">
-                                        We provide end-to-end manpower and catering solutions to make your big day unforgettable.
+                                        We provide end-to-end manpower solutions to make your big day unforgettable.
                                     </p>
                                     <ul>
                                         <li><i className="bi bi-check2-circle"></i> <span>Uniformed waiting staff for a premium guest experience.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Traditional Kerala and multi-cuisine catering menus.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Experienced site supervisors to ensure smooth operations.</span></li>
                                         <li><i className="bi bi-check2-circle"></i> <span>Dedicated event supervisors to manage all staff on-site.</span></li>
                                     </ul>
                                     <p>
-                                        Our wedding services focus on discipline and elegance. We ensure that your guests are served with the highest standards of hospitality, while our kitchen team delivers food that everyone will remember.
+                                        Our wedding services focus on discipline and elegance. We ensure that your guests are served with the highest standards of hospitality, while our team ensures everything runs flawlessly.
                                     </p>
                                 </div>
                             </div>
@@ -62,11 +62,11 @@ export default function Events() {
                                         <p><span>Flexible Packages</span></p>
                                     </div>
                                     <p className="fst-italic">
-                                        Professional staffing and catering for business meetings and corporate galas.
+                                        Professional staffing for business meetings and corporate galas.
                                     </p>
                                     <ul>
                                         <li><i className="bi bi-check2-circle"></i> <span>Punctual and professional staff for formal service.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Tailored lunch and dinner buffets for corporate groups.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Tailored staffing packages for corporate groups.</span></li>
                                         <li><i className="bi bi-check2-circle"></i> <span>Efficient setup and quick cleanup to respect your schedule.</span></li>
                                     </ul>
                                     <p>
@@ -90,7 +90,7 @@ export default function Events() {
                                     </p>
                                     <ul>
                                         <li><i className="bi bi-check2-circle"></i> <span>Flexible manpower options (waiters/helpers) for any crowd size.</span></li>
-                                        <li><i className="bi bi-check2-circle"></i> <span>Customizable menus to suit your family's preferences.</span></li>
+                                        <li><i className="bi bi-check2-circle"></i> <span>Customizable staffing plans to suit your family's preferences.</span></li>
                                         <li><i className="bi bi-check2-circle"></i> <span>Friendly and helpful staff to make your guests feel at home.</span></li>
                                     </ul>
                                     <p>
