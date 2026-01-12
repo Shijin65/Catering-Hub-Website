@@ -1,11 +1,10 @@
 export default function Events() {
     return (
         <section id="events" className="events section">
-            <img className="slider-bg" src="/assets/img/hero-bg.jpg" alt="Best Ever Catering Events" data-aos="fade-in" />
 
-            <div className="container section-title" data-aos="fade-up" style={{ position: 'relative', zIndex: 2 }}>
+            <div className="container section-title" data-aos="fade-up">
                 <h2>Events</h2>
-                <p>Organize Your Events in our Restaurant</p>
+                <p>Creating Memorable Event Experiences</p>
             </div>
 
             <div className="container">

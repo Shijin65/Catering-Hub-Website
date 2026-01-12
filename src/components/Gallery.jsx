@@ -8,7 +8,7 @@ export default function Gallery() {
         <section id="gallery" className="gallery section">
             <div className="container section-title" data-aos="fade-up">
                 <h2>Gallery</h2>
-                <p>Some photos from Our Events</p>
+                <p>Event Highlights Captured In Frames</p>
             </div>
 
             <div

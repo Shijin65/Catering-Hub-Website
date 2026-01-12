@@ -1,8 +1,15 @@
 
 import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import AboutPage from './pages/AboutPage';
+import ServicesPage from './pages/ServicesPage';
+import EventsPage from './pages/EventsPage';
+import PartnersPage from './pages/PartnersPage';
+import GalleryPage from './pages/GalleryPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   useEffect(() => {
@@ -196,7 +203,7 @@ function App() {
     window.addEventListener('scroll', navmenuScrollspy);
     navmenuScrollspy();
 
-    // Cleanup
+    // Initial load effects
     return () => {
       document.removeEventListener('scroll', toggleScrolled);
       document.removeEventListener('scroll', toggleScrollTop);
@@ -206,14 +213,92 @@ function App() {
   }, []);
 
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <Home />
+      <ScrollToTopAndInit />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/events" element={<EventsPage />} />
+        <Route path="/partners" element={<PartnersPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
       <Footer />
       <a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
       <div id="preloader"></div>
-    </>
+    </BrowserRouter>
   )
+}
+
+/**
+ * ScrollToTopAndInit component handles scrolling to top and re-initializing 
+ * vendor scripts like AOS, GLightbox, and Swiper on every route change.
+ */
+function ScrollToTopAndInit() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+
+    // Re-initialize AOS
+    if (window.AOS) {
+      window.AOS.init({
+        duration: 600,
+        easing: 'ease-in-out',
+        once: true,
+        mirror: false
+      });
+    }
+
+    // Re-initialize GLightbox
+    if (window.GLightbox) {
+      window.GLightbox({
+        selector: '.glightbox'
+      });
+    }
+
+    // Re-initialize Swiper sliders
+    if (window.Swiper) {
+      document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
+        // Destroy existing instance if it exists to avoid memory leaks/conflicts
+        if (swiperElement.swiper) {
+          swiperElement.swiper.destroy();
+        }
+
+        const configElement = swiperElement.querySelector(".swiper-config");
+        if (configElement) {
+          try {
+            const config = JSON.parse(configElement.innerHTML.trim());
+            new window.Swiper(swiperElement, config);
+          } catch (e) {
+            console.error("Failed to parse swiper config", e);
+          }
+        }
+      });
+    }
+
+    // Re-initialize Isotope
+    if (window.Isotope && window.imagesLoaded) {
+      document.querySelectorAll('.isotope-layout').forEach(function (isotopeItem) {
+        let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
+        let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
+        let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
+
+        window.imagesLoaded(isotopeItem.querySelector('.isotope-container'), function () {
+          new window.Isotope(isotopeItem.querySelector('.isotope-container'), {
+            itemSelector: '.isotope-item',
+            layoutMode: layout,
+            filter: filter,
+            sortBy: sort
+          });
+        });
+      });
+    }
+  }, [pathname]);
+
+  return null;
 }
 
 export default App

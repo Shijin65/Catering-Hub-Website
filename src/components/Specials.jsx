@@ -67,9 +67,6 @@ export default function Specials() {
                                         <p className="fst-italic">Create a perfect first impression.</p>
                                         <p>Our well-groomed and professional hosting staff welcomes your guests with a warm smile. They manage the guest list, guide attendees to their seats, and ensure a smooth flow at the entrance, adding a touch of elegance to your event.</p>
                                     </div>
-                                    <div className="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/specials-1.png" alt="Hosting Staff" className="img-fluid" />
-                                    </div>
                                 </div>
                             </div>
                             <div className="tab-pane" id="specials-tab-2">
@@ -79,9 +76,7 @@ export default function Specials() {
                                         <p className="fst-italic">Efficient and polite waiting staff.</p>
                                         <p>Our service team is trained to handle food and beverage service with grace. Whether it's a buffet or sit-down dinner, they ensure that every guest is attended to promptly and professionally.</p>
                                     </div>
-                                    <div className="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/specials-2.png" alt="Service Staff" className="img-fluid" />
-                                    </div>
+
                                 </div>
                             </div>
                             <div className="tab-pane" id="specials-tab-3">
@@ -91,9 +86,7 @@ export default function Specials() {
                                         <p className="fst-italic">Professional management of stage activities.</p>
                                         <p>Our stage hosts ensure that the protocol is followed and stage events run on time. They assist guests of honor, manage awards or gifts, and coordinate with the anchor to maintain the flow of the program.</p>
                                     </div>
-                                    <div className="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/specials-3.png" alt="Stage Hosting" className="img-fluid" />
-                                    </div>
+
                                 </div>
                             </div>
                             <div className="tab-pane" id="specials-tab-4">
@@ -103,9 +96,7 @@ export default function Specials() {
                                         <p className="fst-italic">Engaging and lively event hosting.</p>
                                         <p>Our professional anchors keep the audience entertained and engaged. They manage the timeline, make announcements, and ensure high energy throughout the event, making it memorable for everyone.</p>
                                     </div>
-                                    <div className="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/specials-4.png" alt="Anchoring" className="img-fluid" />
-                                    </div>
+
                                 </div>
                             </div>
                             <div className="tab-pane" id="specials-tab-5">
@@ -115,9 +106,7 @@ export default function Specials() {
                                         <p className="fst-italic">Safety and crowd management.</p>
                                         <p>Our trained security personnel ensure the safety of your venue and guests. They manage parking, control crowds, and handle any situations discreetly to ensure a trouble-free event.</p>
                                     </div>
-                                    <div className="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/specials-5.png" alt="Security" className="img-fluid" />
-                                    </div>
+
                                 </div>
                             </div>
                             <div className="tab-pane" id="specials-tab-6">
@@ -127,9 +116,7 @@ export default function Specials() {
                                         <p className="fst-italic">Spotless venues, always.</p>
                                         <p>Our dedicated housekeeping staff maintains cleanliness before, during, and after the event. They ensure restrooms are stocked, spills are cleaned immediately, and the venue remains pristine.</p>
                                     </div>
-                                    <div className="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/specials-1.png" alt="Housekeeping" className="img-fluid" />
-                                    </div>
+
                                 </div>
                             </div>
                             <div className="tab-pane" id="specials-tab-7">
@@ -139,9 +126,7 @@ export default function Specials() {
                                         <p className="fst-italic">Experienced on-ground management.</p>
                                         <p>Our site supervisors act as the captain of the ship. They coordinate all manpower teams, liaise with vendors, and troubleshoot any issues instantly to ensure your event proceeds exactly as planned.</p>
                                     </div>
-                                    <div className="col-lg-4 text-center order-1 order-lg-2">
-                                        <img src="assets/img/specials-2.png" alt="Site Supervisors" className="img-fluid" />
-                                    </div>
+
                                 </div>
                             </div>
                         </div>

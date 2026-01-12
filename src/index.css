@@ -41,6 +41,8 @@ body {
     max-width: 100% !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
   /* Ensure images don't overflow */
@@ -147,5 +149,344 @@ body {
   .partners-section .partner-item h3 {
     font-size: 10px;
     margin-bottom: 2px;
+  }
+}
+
+/* About Section Styles */
+.about .section-subtitle {
+  color: #cda45e !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.about .about-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: "Playfair Display", serif;
+}
+
+.about .about-italic {
+  font-style: italic;
+  font-size: 18px;
+  color: #aaaaaa;
+  margin-bottom: 25px;
+}
+
+.about .about-text {
+  color: #d8d8d8;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-logo-frame {
+  display: inline-block;
+  padding: 15px;
+  border: 4px solid #cda45e;
+  /* Gold border */
+  border-radius: 10px;
+  /* Slight rounded corners */
+  background: rgba(255, 255, 255, 0.05);
+  /* Subtle background */
+  box-shadow: 0 0 20px rgba(205, 164, 94, 0.2);
+  /* Glow effect */
+  transition: all 0.3s ease-in-out;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.about-logo-frame:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 25px rgba(205, 164, 94, 0.4);
+}
+
+.about-logo-frame img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+/* Button style if not already globally defined or to override */
+.btn-book-a-table {
+  background: #cda45e;
+  border: 2px solid #cda45e;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 35px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-book-a-table:hover {
+  background: transparent;
+  color: #cda45e;
+}
+
+/* Ensure section has some spacing */
+.about.section {
+  padding: 80px 0;
+}
+
+/* Contact Card Styles */
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.contact-card {
+  background: rgba(205, 164, 94, 0.1);
+  border: 2px solid #cda45e;
+  border-radius: 8px;
+  padding: 20px 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+  cursor: pointer;
+}
+
+.contact-card:hover {
+  background: #cda45e;
+  transform: translateY(-5px);
+  box-shadow: 0 5px 25px rgba(205, 164, 94, 0.4);
+}
+
+.contact-card i {
+  font-size: 32px;
+  color: #cda45e;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover i {
+  color: #0c0b09;
+}
+
+.contact-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover h3 {
+  color: #0c0b09;
+}
+
+.contact-card p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover p {
+  color: #0c0b09;
+}
+
+/* Mobile responsive styles for contact cards */
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 15px 10px;
+  }
+
+  .contact-card i {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .contact-card h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .contact-card p {
+    display: none;
+  }
+}
+
+/* Page Header & Breadcrumb Design */
+.page-header {
+  padding: 180px 0 80px 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.page-header::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+}
+
+.page-header .container {
+  position: relative;
+  z-index: 3;
+}
+
+.page-header h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+
+.page-header p {
+  color: #cda45e;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.page-header .breadcrumbs {
+  margin-top: 30px;
+}
+
+.page-header .breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.page-header .breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.page-header .breadcrumbs ol li+li::before {
+  content: "/";
+  display: inline-block;
+  padding-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.page-header .breadcrumbs ol a {
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.page-header .breadcrumbs ol a:hover {
+  color: #cda45e;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: 100px 0 60px 0;
+  }
+
+  .page-header h2 {
+    font-size: 36px;
+  }
+
+  .page-header p {
+    font-size: 14px;
+  }
+}
+
+/* Enhanced Hero Typography */
+.hero h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+}
+
+.hero .cta-btn {
+  background: transparent;
+  border: 2px solid #cda45e;
+  padding: 12px 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  margin-right: 15px;
+  transition: 0.3s;
+}
+
+.hero .cta-btn:hover {
+  background: #cda45e;
+  color: #0c0b09;
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+}
+
+/* Global Section Title Centering & Refinement */
+.section-title {
+  text-align: center;
+}
+
+.section-title h2 {
+  display: none;
+  /* Hide the small uppercase title */
+}
+
+.section-title p {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.section-title p::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #cda45e;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+@media (max-width: 480px) {
+  .contact-card {
+    padding: 10px 5px;
+  }
+
+  .contact-card i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .contact-card h3 {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+
+  .contact-card p {
+    display: none;
   }
 }

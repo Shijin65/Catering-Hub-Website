@@ -1,22 +1,36 @@
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 export default function Hero() {
+    const [imageLoaded, setImageLoaded] = useState(false);
+
+    useEffect(() => {
+        const img = new Image();
+        img.src = '/assets/img/gallery/team-group-5.jpg';
+        img.onload = () => setImageLoaded(true);
+    }, []);
+
     return (
         <section id="hero" className="hero section dark-background">
-            <img src="/assets/img/gallery/team-group-5.jpg" alt="Best Ever Catering Team" data-aos="fade-in" />
+            <img
+                src="/assets/img/gallery/team-group-5.jpg"
+                alt="Best Ever Catering Team"
+                data-aos="fade-in"
+                style={{ opacity: imageLoaded ? 1 : 0, transition: 'opacity 0.5s ease-in' }}
+                loading="eager"
+            />
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
-                        <h2 data-aos="fade-up" data-aos-delay="100">Welcome to <span>Best Ever Catering</span></h2>
-                        <p data-aos="fade-up" data-aos-delay="200">Professional Event Manpower & Staffing Solutions</p>
-                        <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-                            <a href="#specials" className="cta-btn">Our Services</a>
+                <div className="row justify-content-center text-center">
+                    <div className="col-lg-10">
+                        <h2 data-aos="fade-up" data-aos-delay="100">Excellence in <span>Catering & Event</span> Management</h2>
+                        <p data-aos="fade-up" data-aos-delay="200">Palakkad's Premier Choice for Professional Staffing & Memorable Culinary Experiences</p>
+                        <div className="d-flex justify-content-center mt-5" data-aos="fade-up" data-aos-delay="300">
+                            <Link to="/services" className="cta-btn">Our Services</Link>
                             <a href="https://wa.me/917510761910" className="cta-btn" target="_blank" rel="noopener noreferrer">
-                                <i className="bi bi-whatsapp me-2"></i> Book an Event
+                                <i className="bi bi-whatsapp me-2"></i> Book Now
                             </a>
                         </div>
                     </div>
-                    {/* <div className="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
-                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" className="glightbox pulsating-play-btn"></a>
-                    </div> */}
                 </div>
             </div>
         </section>

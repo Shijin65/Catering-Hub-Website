@@ -2,7 +2,7 @@ export default function Partners() {
     return (
         <section id="partners" className="partners section partners-section">
             <div className="container section-title" data-aos="fade-up">
-                <h2>Our Partners</h2>
+                {/* <h2>Our Partners</h2> */}
                 <p>Trusted Collaborations & Partnerships</p>
             </div>
 
