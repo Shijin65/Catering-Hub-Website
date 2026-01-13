@@ -29,7 +29,7 @@ export default function Events() {
                         <div className="swiper-slide">
                             <div className="row gy-4 event-item">
                                 <div className="col-lg-6">
-                                    <img src="/assets/img/grand-weddings.jpg" className="img-fluid" alt="Grand Weddings" style={{ height: '500px', objectFit: 'cover', width: '100%' }} />
+                                    <img src="/assets/img/grand-weddings.jpg" className="img-fluid event-img" alt="Grand Weddings" />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
                                     <h3>Grand Weddings</h3>
@@ -53,7 +53,7 @@ export default function Events() {
                         <div className="swiper-slide">
                             <div className="row gy-4 event-item">
                                 <div className="col-lg-6">
-                                    <img src="/assets/img/corporate-events.jpg" className="img-fluid" alt="Corporate Events" style={{ height: '500px', objectFit: 'cover', width: '100%' }} />
+                                    <img src="/assets/img/corporate-events.jpg" className="img-fluid event-img" alt="Corporate Events" />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
                                     <h3>Corporate Events</h3>
@@ -77,7 +77,7 @@ export default function Events() {
                         <div className="swiper-slide">
                             <div className="row gy-4 event-item">
                                 <div className="col-lg-6">
-                                    <img src="/assets/img/social-gatherings.jpg" className="img-fluid" alt="Social Gatherings" style={{ height: '500px', objectFit: 'cover', width: '100%' }} />
+                                    <img src="/assets/img/social-gatherings.jpg" className="img-fluid event-img" alt="Social Gatherings" />
                                 </div>
                                 <div className="col-lg-6 pt-4 pt-lg-0 content">
                                     <h3>Social Gatherings</h3>

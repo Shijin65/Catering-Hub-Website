@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function About() {
     return (
         <section id="about" className="about section">
@@ -37,7 +39,7 @@ export default function About() {
                         </p>
 
                         <div className="mt-4">
-                            <a href="#contact" className="btn-book-a-table">Contact Us</a>
+                            <Link to="/contact" className="btn-book-a-table">Contact Us</Link>
                         </div>
                     </div>
                 </div>

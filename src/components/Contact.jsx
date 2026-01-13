@@ -7,25 +7,13 @@ export default function Contact() {
             </div>
 
             <div className="container" data-aos="fade-up" data-aos-delay="100">
-                {/* Location & Hours Section */}
+                {/* Redesigned Location Section */}
                 <div className="row gy-4 mb-5 justify-content-center">
-                    <div className="col-lg-5 col-md-6">
-                        <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                            <i className="bi bi-geo-alt flex-shrink-0"></i>
-                            <div>
-                                <h3>Location</h3>
-                                <p>Palakkad, Kerala</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-5 col-md-6">
-                        <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                            <i className="bi bi-clock flex-shrink-0"></i>
-                            <div>
-                                <h3>Open Hours</h3>
-                                <p>Monday-Saturday:<br />11:00 AM - 11:00 PM</p>
-                            </div>
+                    <div className="col-lg-6">
+                        <div className="contact-location-box" data-aos="fade-up" data-aos-delay="200">
+                            <i className="bi bi-geo-alt"></i>
+                            <h3>Our Location</h3>
+                            <p>Palakkad, Kerala</p>
                         </div>
                     </div>
                 </div>
@@ -43,7 +31,7 @@ export default function Contact() {
                     </div>
 
                     <div className="col-3 col-lg-2">
-                        <a href="https://www.instagram.com/bestevercateringservice?igsh=MmR4MWtnZ20xbXc=" target="_blank" rel="noopener noreferrer" className="contact-link">
+                        <a href="https://ig.me/m/bestevercateringservice" target="_blank" rel="noopener noreferrer" className="contact-link">
                             <div className="contact-card" data-aos="fade-up" data-aos-delay="200">
                                 <i className="bi bi-instagram"></i>
                                 <h3>Instagram</h3>

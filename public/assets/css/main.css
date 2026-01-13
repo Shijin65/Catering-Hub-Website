@@ -247,12 +247,12 @@ h6 {
   transition: all 0.5s;
 }
 
-.header .topbar .contact-info i {
+.header .topbar .contact-info a {
   font-style: normal;
   color: var(--accent-color);
 }
 
-.header .topbar .contact-info i a,
+.header .topbar .contact-info a span,
 .header .topbar .contact-info i span {
   padding-left: 5px;
   color: var(--default-color);
@@ -260,18 +260,18 @@ h6 {
 
 @media (max-width: 575px) {
 
-  .header .topbar .contact-info i a,
+  .header .topbar .contact-info a span,
   .header .topbar .contact-info i span {
     font-size: 13px;
   }
 }
 
-.header .topbar .contact-info i a {
+.header .topbar .contact-info a span {
   line-height: 0;
   transition: 0.3s;
 }
 
-.header .topbar .contact-info i a:hover {
+.header .topbar .contact-info a span:hover {
   color: var(--accent-color);
   text-decoration: underline;
 }
